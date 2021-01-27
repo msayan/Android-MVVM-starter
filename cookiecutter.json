@@ -1,0 +1,10 @@
+{
+  "project_name": "android-project",
+  "repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "min_sdk" : 21,
+  "target_sdk" : 30,
+  "package_name": "com.hololo.{{ cookiecutter.project_name|lower|replace(' ', '')|replace('-', '') }}",
+  "version" : "1.0.0",
+  "retrofit" : "y",
+  "picasso" : "y"
+}
